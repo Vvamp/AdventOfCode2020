@@ -15,4 +15,4 @@ for line in input:
         if int(line) + int(line2) == goal: 
             print("RESULT: {} * {} = {}".format(line, line2, int(line)*int(line2)))
             exit(0)
-print("No results found. Probabl error in code")
+print("No results found. Probably error in code")
